@@ -2,7 +2,7 @@ import React from "react";
 export default function Content(){
     return(    <div className=" container">
         <div className="degree">
-          <h5>
+          <h5 className="degreeunit">
             <span>19</span>
             <span className="units">
               <a href="/" id="celisus-link" class="active">
