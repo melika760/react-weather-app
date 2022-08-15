@@ -1,10 +1,10 @@
 import React from "react";
 export default function Content(){
-    return(    <div>
-        <div class="degree">
+    return(    <div className=" container">
+        <div className="degree">
           <h5>
-            <span id="current-degree">19</span>
-            <span class="units">
+            <span>19</span>
+            <span className="units">
               <a href="/" id="celisus-link" class="active">
                 °C |
               </a>
@@ -14,26 +14,25 @@ export default function Content(){
             </span>
           </h5>
           <img
-            id="icon"
+            className="icon"
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt=""
           />
         </div>
-        <div class="row">
-          <div class="col-8">
-            <h1 id="cityname">London</h1>
-            <br />
+        <div className="row">
+          <div className="col-8">
             <ul>
+              <li>  <h1 id="cityname">London</h1></li>
               <li>
                 Last updated:<span id="date">Friday 06:46</span>
               </li>
               <li id="description">Clear</li>
             </ul>
           </div>
-          <div class="col-4">
+          <div className="col-4">
+            <br />
             <br />
             <ul>
-              <br />
               <li>
                 Humadity:<span id="humadity">80</span>%
               </li>

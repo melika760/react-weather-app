@@ -29,7 +29,7 @@ let ApiKey = "1e9fb88fe728a434cb6268bdccba077b";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${ApiKey}&units=metric`;
 axios.get(apiUrl).then(handleresponse);}
     return(  
-     <div className="container weather-app">
+     <div className=" weather-app">
     <form onSubmit={handleSubmit}>
      <div className="row">
        <div className="col-9">
