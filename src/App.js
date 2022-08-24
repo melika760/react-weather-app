@@ -4,7 +4,7 @@ import SearchEngin from "./SearchEngin"
 
 function App() {
   return (
- <SearchEngin/>
+ <SearchEngin defaultCity="New York"/>
   );
 }
 
