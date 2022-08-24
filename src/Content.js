@@ -1,5 +1,6 @@
 import React from "react";
-export default function Content(){
+import FormattedDate from "./FormattedDate";
+export default function Content(props){
     return(    <div className=" container">
         <div className="degree">
           <h5 className="degreeunit">
@@ -22,11 +23,11 @@ export default function Content(){
         <div className="row">
           <div className="col-8">
             <ul>
-              <li>  <h1 id="cityname">London</h1></li>
+              <li>  <h1 id="cityname">{props.data.city}</h1></li>
               <li>
-                Last updated:<span id="date">Friday 06:46</span>
+                Last updated:<span id="date"> <FormattedDate date={props.data.date} /></span>
               </li>
-              <li id="description">Clear</li>
+              <li id="description">{props.data.description}</li>
             </ul>
           </div>
           <div className="col-4">
@@ -34,10 +35,10 @@ export default function Content(){
             <br />
             <ul>
               <li>
-                Humadity:<span id="humadity">80</span>%
+                Humadity:<span id="humadity">{props.data.humidity}</span>%
               </li>
               <li>
-                wind:<span id="wind">3</span>km/h
+                wind:<span id="wind">{props.data.wind}</span>km/h
               </li>
             </ul>
           </div>
