@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 export default function Content(props){
     return(    <div className=" container">
         <div className="degree">
@@ -14,11 +15,7 @@ export default function Content(props){
               </a>
             </span>
           </h5>
-          <img
-            className="icon"
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt=""
-          />
+          <WeatherIcon code={props.data.icon} size={52} />
         </div>
         <div className="row">
           <div className="col-8">
