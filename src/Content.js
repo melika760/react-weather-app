@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 export default function Content(props){
-    return(    <div className=" container">
+    return(    <div>
         <div className="degree">
           <h5 className="degreeunit">
             <span> <WeatherTemperature celsius={props.data.temperature} /></span>
