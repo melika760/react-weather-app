@@ -2,12 +2,12 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 export default function Content(props){
     return(    <div>
         <div className="degree">
           <h5 className="degreeunit">
             <span> <WeatherTemperature celsius={props.data.temperature} /></span>
-         
           </h5>
           <WeatherIcon code={props.data.icon} size={100} />
         </div>
@@ -34,5 +34,6 @@ export default function Content(props){
             </ul>
           </div>
         </div>
+        <WeatherForecast/>
       </div>)
 }

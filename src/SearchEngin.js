@@ -1,6 +1,7 @@
 import React,{useState}  from "react";
 import axios from "axios";
 import Content from "./Content";
+import "./Weather.css"
 export default function SearchEngin(props){
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
