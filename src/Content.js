@@ -5,31 +5,31 @@ import WeatherTemperature from "./WeatherTemperature";
 import WeatherForecast from "./WeatherForecast";
 export default function Content(props){
     return(    <div>
-        <div className="degree">
+        <div className="degree container">
           <h5 className="degreeunit">
             <span> <WeatherTemperature celsius={props.data.temperature} /></span>
           </h5>
           <WeatherIcon code={props.data.icon} size={100} />
         </div>
         <div className="row">
-          <div className="col-8">
-            <ul>
-              <li>  <h1 id="cityname">{props.data.city}</h1></li>
+          <div className="col-7">
+            <ul className="itemlists">
+              <li>  <h1>{props.data.city}</h1></li>
               <li>
-                Last updated:<span id="date"> <FormattedDate date={props.data.date} /></span>
+                Last updated: <span> <FormattedDate date={props.data.date} /></span>
               </li>
-              <li id="description">{props.data.description}</li>
+              <li>{props.data.description}</li>
             </ul>
           </div>
-          <div className="col-4">
+          <div className="col-5">
             <br />
             <br />
-            <ul>
+            <ul className="itemlists">
               <li>
-                Humadity:<span id="humadity">{props.data.humidity}</span>%
+                Humadity:<span>{props.data.humidity}</span>%
               </li>
               <li>
-                wind:<span id="wind">{props.data.wind}</span>km/h
+                wind:<span>{props.data.wind}</span>km/h
               </li>
             </ul>
           </div>

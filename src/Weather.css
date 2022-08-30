@@ -9,9 +9,7 @@ body{
     max-width: 100%;
     border: none;
 }
-.nightbtn{
-    background-color: blueviolet;
-}
+
 h1 {
     font-size: 35px;
     font-weight: 100;
@@ -40,15 +38,17 @@ h1 {
     background-image: linear-gradient(#f33939, #f4f493);
     
   }
-  .nightbackground{
-    background: rgb(2,0,36);
-    background: linear-gradient( rgb(8, 4, 87) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    color: #dadde1;
-  }
+
   .degree{
       text-align: center;
      
 
+  }
+  .itemlists{
+    padding: 2px;
+  }
+  .itemlists li{
+    padding: 5px;
   }
   .degreeunit{
       font-size: 100px;
@@ -67,6 +67,13 @@ h1 {
 margin-bottom: 25px;
 margin-right: 68px;
 
+  }
+  .WeatherForecast{
+    text-align: center;
+  }
+  .ForecastTemp .ForecastTemp-min{
+    opacity: 0.6;
+    margin-left: 5px;
   }
 
 
