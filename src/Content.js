@@ -2,7 +2,6 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
-import WeatherForecast from "./WeatherForecast";
 export default function Content(props){
     return(    <div>
         <div className="degree container">
@@ -34,6 +33,5 @@ export default function Content(props){
             </ul>
           </div>
         </div>
-        <WeatherForecast/>
       </div>)
 }
