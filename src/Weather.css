@@ -1,7 +1,11 @@
-body{
-    font-family: "Patrick Hand", cursive;
-
-    ;
+.weather-app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background-image: linear-gradient(#f33939, #f4f493);
+  
 }
 .btn-color{
     width: 100px;
@@ -15,6 +19,8 @@ h1 {
     font-weight: 100;
     line-height: 28px;
     
+  font-family: 'Poppins', sans-serif;
+    
   }
   ul{
       margin: 0;
@@ -24,19 +30,13 @@ h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: rgb(135, 135, 135);
+    color: rgb(126, 117, 117);
+    opacity: 0.8;
     font-size: 16px;
     font-weight: 100;
     line-height: 16px;
-  }
-  .weather-app {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
-    background-image: linear-gradient(#f33939, #f4f493);
     
+  font-family: 'Poppins', sans-serif;
   }
 
   .degree{
@@ -48,7 +48,7 @@ h1 {
     padding: 2px;
   }
   .itemlists li{
-    padding: 5px;
+    padding: 7px;
   }
   .degreeunit{
       font-size: 100px;
@@ -64,6 +64,7 @@ h1 {
     margin-left: 5px;
     font-weight: 400;
     margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
   }
   .units {
   color: rgb(33, 33, 33);
@@ -83,6 +84,7 @@ margin-right: 68px;
   }
   .WeatherForecast{
     text-align: center;
+  font-family: 'Poppins', sans-serif;
   }
   .ForecastTemp .ForecastTemp-min{
     opacity: 0.6;

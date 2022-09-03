@@ -23,7 +23,7 @@ export default function Content(props){
           <div className="col-5">
             <br />
             <br />
-            <ul className="itemlists">
+            <ul className="itemlists mt-3">
               <li>
                 Humadity:<span>{props.data.humidity}</span>%
               </li>
@@ -33,6 +33,8 @@ export default function Content(props){
             </ul>
           </div>
         </div>
-      
-      </div>)
+      <br/>
+      <br/>
+      </div>
+      )
 }
