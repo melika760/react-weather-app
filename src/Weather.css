@@ -1,6 +1,6 @@
 .weather-app {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -88,7 +88,7 @@ margin-right: 68px;
   }
   .ForecastTemp .ForecastTemp-min{
     opacity: 0.6;
-    margin-left: 5px;
+    margin-left: 8px;
   }
 
 
