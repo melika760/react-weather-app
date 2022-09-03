@@ -48,7 +48,7 @@ h1 {
     padding: 2px;
   }
   .itemlists li{
-    padding: 5px;
+    padding: 7px;
   }
   .degreeunit{
       font-size: 100px;
@@ -88,7 +88,7 @@ margin-right: 68px;
   }
   .ForecastTemp .ForecastTemp-min{
     opacity: 0.6;
-    margin-left: 8px;
+    margin-left: 5px;
   }
 
 
